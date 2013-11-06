@@ -357,6 +357,10 @@ table.plain {
    ========================================================================== */
 
 /* Big cover image on the home page */
+#site-head .vertical {
+    padding-top: 235px;
+}
+
 #site-head {
     position: relative;
     display: table;
@@ -392,6 +396,7 @@ table.plain {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
+    color: #29292f;
 }
 
 .blog-description {
@@ -401,6 +406,7 @@ table.plain {
     font-weight: 300;
     font-family: 'Droid Serif', serif;
     letter-spacing: 0;
+    color: #29292f;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
